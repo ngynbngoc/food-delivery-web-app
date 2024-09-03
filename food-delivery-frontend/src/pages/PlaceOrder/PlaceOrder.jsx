@@ -1,7 +1,7 @@
 import React from 'react';
-import './Cart.css';
+import './PlaceOrder.css';
 
-const Cart = () => {
+const PlaceOrder = () => {
     return (
         <div>
 
@@ -9,4 +9,4 @@ const Cart = () => {
     )
 }
 
-export default Cart
+export default PlaceOrder
