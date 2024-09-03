@@ -12,8 +12,8 @@ const ExploreMenu = ({category, setCategory}) => {
     //autoscroll effectt]
     useEffect(() => {
         const menuElement = menuRef.current;
-        const scrollSpeed = 1; // Speed of scrolling
-        const scrollInterval = 25; // Interval time in milliseconds
+        const scrollSpeed = 0.5; // Speed of scrolling
+        const scrollInterval = 10; // Interval time in milliseconds
 
 
         let scrollAmount = 0;
