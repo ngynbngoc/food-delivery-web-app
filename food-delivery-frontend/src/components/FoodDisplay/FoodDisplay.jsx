@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col'
 const FoodDisplay = ({category}) => {
 
     const {food_list} = useContext(StoreContext)
-    console.log(food_list)
+    
 
   return (
     <div className="Food-display" id="food-display">

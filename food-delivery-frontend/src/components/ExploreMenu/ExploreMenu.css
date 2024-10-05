@@ -28,24 +28,7 @@
 .explore-menu-list::-webkit-scrollbar{
     display: none;
 }
-.explore-menu-list-wrapper {
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100%;
-    position: relative;
-    
-}
-  
-  .explore-menu-list {
-    display: inline-flex;
-    gap: 30px;
-    align-items: center;
-    white-space: nowrap;
-    flex-wrap: nonwrap;
-    transition: transform 0.2s linear;
-  }
 
-  
   .menu-item {
     flex-shrink: 0;
     text-align: center;
